@@ -1,19 +1,27 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
 
-@theme {
-  --breakpoint-*: initial;
-  --breakpoint-sm: 40rem;
-  --breakpoint-md: 64rem;
-  --breakpoint-lg: 80rem;
+body{
+    font-family: "Capriola", sans-serif;
 }
 
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 576px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl:1320px;
+  --color-common: #B48F41;
+}
+
+@utility container {
+  @apply mx-auto
+}
 
 
 @layer components {
   .btn{
     width: 127px;
-    padding: 8px 20px;
     color: white;
     background-color: #B48F41;
     border-radius: 10px;
