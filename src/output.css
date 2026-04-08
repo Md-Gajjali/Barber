@@ -601,6 +601,12 @@
   .w-63\.75 {
     width: calc(var(--spacing) * 63.75);
   }
+  .w-67 {
+    width: calc(var(--spacing) * 67);
+  }
+  .w-67\.5 {
+    width: calc(var(--spacing) * 67.5);
+  }
   .w-69 {
     width: calc(var(--spacing) * 69);
   }
@@ -651,6 +657,12 @@
   }
   .w-\[256px\] {
     width: 256px;
+  }
+  .w-\[270px\] {
+    width: 270px;
+  }
+  .w-\[900px\] {
+    width: 900px;
   }
   .w-auto {
     width: auto;
