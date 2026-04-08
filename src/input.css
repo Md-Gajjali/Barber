@@ -1,2 +1,22 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 64rem;
+  --breakpoint-lg: 80rem;
+}
+
+
+
+@layer components {
+  .btn{
+    width: 127px;
+    padding: 8px 20px;
+    color: white;
+    background-color: #B48F41;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
