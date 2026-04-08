@@ -18,6 +18,9 @@ body{
   @apply mx-auto
 }
 
+.container{
+  margin: auto;
+}
 
 @layer components {
   .btn{
