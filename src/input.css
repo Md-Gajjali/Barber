@@ -15,7 +15,7 @@ body{
 }
 
 @utility container {
-  @apply mx-auto
+  @apply  mx-auto 
 }
 
 .container{
@@ -27,6 +27,11 @@ body{
     color: white;
     background-color: #B48F41;
     font-size: 15px;
+    padding: 10px 8px;
+  }
+  .secondary-btn{
+    border: 1px solid white;
+    font-size: 10px;
     padding: 10px 8px;
   }
 }
