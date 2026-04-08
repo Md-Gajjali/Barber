@@ -484,6 +484,9 @@
   .h-37\.5 {
     height: calc(var(--spacing) * 37.5);
   }
+  .h-\[420px\] {
+    height: 420px;
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
