@@ -24,7 +24,6 @@ body{
 
 @layer components {
   .btn{
-    width: 127px;
     color: white;
     background-color: #B48F41;
     font-size: 15px;
