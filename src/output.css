@@ -379,6 +379,9 @@
   .left-70 {
     left: calc(var(--spacing) * 70);
   }
+  .-z-20 {
+    z-index: calc(20 * -1);
+  }
   .z-10 {
     z-index: 10;
   }
@@ -508,6 +511,9 @@
   .table {
     display: table;
   }
+  .h-2 {
+    height: calc(var(--spacing) * 2);
+  }
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
@@ -519,6 +525,9 @@
   }
   .h-7 {
     height: calc(var(--spacing) * 7);
+  }
+  .h-14 {
+    height: calc(var(--spacing) * 14);
   }
   .h-24 {
     height: calc(var(--spacing) * 24);
@@ -541,6 +550,9 @@
   .h-105 {
     height: calc(var(--spacing) * 105);
   }
+  .h-200 {
+    height: calc(var(--spacing) * 200);
+  }
   .w-4 {
     width: calc(var(--spacing) * 4);
   }
@@ -549,6 +561,9 @@
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-14 {
+    width: calc(var(--spacing) * 14);
   }
   .w-24 {
     width: calc(var(--spacing) * 24);
@@ -570,6 +585,9 @@
   }
   .w-46 {
     width: calc(var(--spacing) * 46);
+  }
+  .w-46\.75 {
+    width: calc(var(--spacing) * 46.75);
   }
   .w-61 {
     width: calc(var(--spacing) * 61);
@@ -625,11 +643,20 @@
   .w-225 {
     width: calc(var(--spacing) * 225);
   }
+  .w-\[187\] {
+    width: 187;
+  }
+  .w-\[187px\] {
+    width: 187px;
+  }
   .w-\[256px\] {
     width: 256px;
   }
   .w-auto {
     width: auto;
+  }
+  .w-fit {
+    width: fit-content;
   }
   .w-full {
     width: 100%;
@@ -774,6 +801,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .object-cover {
+    object-fit: cover;
+  }
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
@@ -824,6 +854,12 @@
   }
   .py-18\.25 {
     padding-block: calc(var(--spacing) * 18.25);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
+  .py-200 {
+    padding-block: calc(var(--spacing) * 200);
   }
   .text-center {
     text-align: center;
@@ -891,6 +927,12 @@
   .tracking-tight {
     --tw-tracking: var(--tracking-tight);
     letter-spacing: var(--tracking-tight);
+  }
+  .text-\[\#F7F7F7\] {
+    color: #F7F7F7;
+  }
+  .text-\[\#\] {
+    color: #;
   }
   .text-black {
     color: var(--color-black);
